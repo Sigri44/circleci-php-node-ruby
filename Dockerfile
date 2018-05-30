@@ -1,6 +1,6 @@
 # Based on the pre-built CircleCI PHP image.
 # See https://circleci.com/docs/2.0/circleci-images/#php
-FROM circleci/php:latest
+FROM circleci/php:7.2.6-cli-node-browsers
 LABEL maintainer="yoan@ytotech.com"
 
 # Add Ruby.

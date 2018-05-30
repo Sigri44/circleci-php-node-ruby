@@ -4,7 +4,7 @@ A [Docker image](https://hub.docker.com/r/yoant/circleci-php-node-ruby/) includi
 
 So you can build your mixed PHP, Node and Ruby projects (for e.g. PHP server + Javascript apps + CSS build with Sass, and so on).
 
-The image is based on the pre-built CircleCI [lastest PHP image](https://circleci.com/docs/2.0/circleci-images/#php), which already
+The image is based on the pre-built CircleCI [7.2.6 PHP image](https://circleci.com/docs/2.0/circleci-images/#php), which already
 includes Node.
 
 We simply add [Ruby](https://rubygems.org) and [Bundler](http://bundler.io/) on top of it.
