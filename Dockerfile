@@ -4,7 +4,6 @@ FROM circleci/php:latest
 LABEL maintainer="yoan@ytotech.com"
 
 # Add Ruby.
-# TODO Do we need ruby-full?
 RUN sudo apt-get update \
 	&& sudo apt-get install -y \
 		ruby ruby-dev \
